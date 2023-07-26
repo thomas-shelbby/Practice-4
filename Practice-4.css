@@ -1,0 +1,308 @@
+*{
+    font-family: poppins;
+}
+.nav-items{
+    font-weight: 900 !important;
+}
+#Float{
+    float: left;
+}
+.fs-7{
+    font-size: 11px;
+}
+#card{
+    background-color: rgb(87, 106, 190);
+    color: white;
+}
+#piu{
+    font-size: 11px;
+    font-weight: normal !important;
+    color: rgb(26, 24, 24);
+}
+#lak{
+    color: rgb(87, 106, 190);
+    font-weight: 600;
+    border-radius: 80px;
+    height: 40px;
+    align-items: center !important;
+    text-align: center !important;
+}
+#card{
+    border-radius: 0px 0px 50px 50px;
+}
+#lpo{
+    font-weight: 400;
+    border-radius: 80px;
+    font-size: 15px;
+    height: 40px;
+}
+#lkj{
+    font-size: 11px;
+}
+.saed{
+    border-radius: 20px !important;
+}
+.card-img-top{
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+}
+#lkmj{
+    font-size: 13px;
+}
+#hjg{
+    color: rgb(9, 172, 9);
+    background-color: rgb(218, 250, 218);
+    border: 0px;
+}
+#kjh{
+    border: 0px;
+    color: red;
+    background-color: rgb(250, 219, 219);
+}
+.feature-card{
+    border-radius: 20px!important;
+}
+.feature-artist-img{
+    max-height: 95px;    
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+}
+.card-profile img {
+    width: 50%;
+}
+.wrapper {
+  width: 100%;
+  max-width: 31.25rem;
+  margin-left: 290px;
+}
+#lkju{
+    background-image: url(/Images/search\ bg.jpg);
+    border-radius: 80px;
+}
+
+.newsletter {
+    background-color: #ffffff22;
+}
+
+.newsletter input {
+    /* padding-right: 80px; */
+    height: 3.5em;
+    color: white;    
+}
+.newsletter input::placeholder {
+    color: #ffffffaa;
+}
+
+.newsletter input:focus {
+    box-shadow: none;
+    color: #ffffff;
+}
+/* #Newslettercard{
+    width: auto;
+} */
+
+.user-profiles {
+    position: absolute;
+    top: 43%;
+}
+.img-profile{
+    position: absolute;
+    top: 43%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .Popular-img{
+        height: 200px !important;
+        width: 70% !important;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-card{
+        margin-left: 0 !important;
+        height: 500px !important;
+        width: 80%;
+        justify-content: center !important;
+    }
+    .hero-img{
+        height: 350px !important;
+        width: 100% !important;
+        justify-content: center;
+        align-items: center;
+    }
+    .latest-image{
+        height: 200px !important;
+        width: 70% !important;
+        justify-content: center;
+        align-items: center;
+    }
+    .user-profiles {
+        position: absolute !important;
+        top: 52% !important;
+        left: 17% !important;
+    }
+    .img-profile{
+        position: absolute;
+        top: 52%;
+        left: 20%;
+    }
+    .faces-img{
+        height: 70px !important;
+        width: 70px !important;
+        position: absolute;
+        top: 23%;
+        left: 32%;
+    }
+    .feature-artist-img{
+        height: 200px !important;    
+        border-top-left-radius: 20px !important;
+        border-top-right-radius: 20px !important;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .Popular-img{
+        height: 200px !important;
+        width: 100% !important;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-card{
+        margin-left: 0 !important;
+        height: 550px !important;
+        width: 60%;
+        justify-content: center !important;
+    }
+    .hero-img{
+        height: 400px !important;
+        width: 100% !important;
+        justify-content: center;
+        align-items: center;
+    }
+    .latest-image{
+        height: 200px !important;
+        width: 100% !important;
+        justify-content: center;
+        align-items: center;
+    }
+    .user-profiles {
+        position: absolute !important;
+        top: 52% !important;
+    }
+    .img-profile{
+        position: absolute;
+        top: 52%;
+    }
+    .faces-img{
+        height: 70px !important;
+        width: 70px !important;
+        position: absolute;
+        top: 23%;
+        left: 30%;
+    }
+    .feature-artist-img{
+        height: 200px !important;    
+        border-top-left-radius: 20px !important;
+        border-top-right-radius: 20px !important;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .Popular-img{
+        height: 150px !important;
+        width: 100% !important;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-card{
+        height: 600px !important;
+        width: 100%;
+        justify-content: center !important;
+    }
+    .hero-img{
+        height: 450px !important;
+        width: 100% !important;
+        justify-content: center;
+        align-items: center;
+    }
+    .latest-image{
+        height: 200px !important;
+        width: 100% !important;
+        justify-content: center;
+        align-items: center;
+    }
+    .user-profiles {
+        position: absolute !important;
+        top: 41% !important;
+    }
+    .img-profile{
+        position: absolute;
+        top: 52%;
+    }
+    .faces-img{
+        height: 50px !important;
+        width: 50px !important;
+        position: absolute;
+        top: 23%;
+        left: 26%;
+    }
+    .feature-artist-img{
+        height: 80px !important;    
+        border-top-left-radius: 20px !important;
+        border-top-right-radius: 20px !important;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .latest-image{
+        height: 175px !important;
+        width: 100% !important;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-card{
+        height: 650px !important;
+        width: 80%;
+        justify-content: center !important;
+    }
+    .hero-img{
+        height: 500px !important;
+        width: 100% !important;
+        justify-content: center;
+        align-items: center;
+    }
+    .Popular-img{
+        height: 146px !important;
+        width: 100% !important;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-profile{
+        position: absolute;
+        top: 45%;
+    }
+    .user-profiles {
+        position: absolute !important;
+        top: 41% !important;
+    }
+    .faces-img{
+        height: 60px !important;
+        width: 60px !important;
+        position: absolute;
+        top: 20%;
+        left: 26%;
+    }
+    .feature-artist-img{
+        height: 80px !important;    
+        border-top-left-radius: 20px !important;
+        border-top-right-radius: 20px !important;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}
